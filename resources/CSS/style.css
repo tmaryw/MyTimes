@@ -69,6 +69,7 @@ div {
   font-size: 17px;
   color: black;
   margin-top: 16px;
+  display: inline-block;
 }
 
 .phish.image-content {
@@ -118,14 +119,14 @@ p {
   display: block;
 }
 
-.text-content {
-  display: block;
-}
-
 .stories {
   display: flex;
   justify-content: space-between;
   margin-top: 17px;
+}
+
+.stories .text-content {
+  height: 250px;
 }
 
 .story {
