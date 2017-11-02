@@ -14,6 +14,7 @@ header {
   height: 80px;
   border-bottom: 1px solid black;
   background-color: white;
+  top: 0px;
 }
 
 header nav {
@@ -52,6 +53,9 @@ div {
 }
 
 .image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -88,6 +92,7 @@ div {
 .content {
   display: flex;
   padding-top: 116px;
+  width: 1232px;
   margin: 0 auto 78px auto;
 }
 
@@ -99,18 +104,14 @@ div {
 
 .column.large {
   width: 630px;
-  display: flex;
 }
 
 .column.medium {
   width: 300px;
-  display: flex;
 }
 
 .column.small {
   width: 240px;
-  display: flex;
-  flex-direction: column;
 }
 
 p {
@@ -130,9 +131,12 @@ p {
 .story {
   display: flex;
   flex-direction: column;
+  width: 300px;
 }
 
 h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
   display: block;
   font-weight: bold;
 }
@@ -160,4 +164,32 @@ h3 {
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  width: 100%;
+  height: 325px;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer .title {
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+footer nav {
+  display: inline-block;
+  margin-left: 25px;
 }
